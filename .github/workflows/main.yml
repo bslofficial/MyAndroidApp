@@ -6,7 +6,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Build with Buildozer
-        uses: ArtemSerebrennkov/buildozer-action@v1
+        uses: ArtemSerebrennkov/buildozer-action@v1.2.0
         with:
-          buildozer_version: master
           save_buildozer_cache: true
